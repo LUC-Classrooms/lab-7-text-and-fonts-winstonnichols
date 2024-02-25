@@ -4,14 +4,19 @@
 
 function setup() {
   createCanvas(640, 240);
-  textFont("Arial");
+  textFont("Roman");
 }
 
 function draw() {
-  background(200);
+  background(120);
   textSize(16);
-  text("one small step for a man ...", 20, 60);
+  text("What do you call a cow that is laying on the ground? ...", 20, 60);
+  
+
+
+if(mouseIsPressed){
   textSize(32);
-  text("one giant leap for mankind.", 20, 160);
+  text("Ground beef", 20, 160);
+}
 
 }
