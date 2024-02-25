@@ -4,7 +4,7 @@
 
 function setup() {
   createCanvas(640, 240);
-  textFont("Roman");
+  textFont("Roman"); 
 }
 
 function draw() {
